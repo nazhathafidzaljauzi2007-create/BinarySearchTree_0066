@@ -27,7 +27,7 @@ class BinaryTree
     BinaryTree() 
     {
         ROOT = NULL; // initializing ROOT to NULL
-    }
+    } 
     
     //insert a Node in the binary search tree
     void insert(string element) 
