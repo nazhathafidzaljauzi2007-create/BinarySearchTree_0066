@@ -92,7 +92,7 @@ class BinaryTree
             cout << ptr->info << " "; 
             inorder(ptr->rightchild); 
         }
-    }  
+    }
     void preorder(Node *ptr) 
     {
         if (ROOT == NULL) 
@@ -107,7 +107,7 @@ class BinaryTree
             preorder(ptr->leftchild); 
             preorder(ptr->rightchild); 
         }
-    }    
+    }
 
     void postorder(Node *ptr) 
     {
@@ -125,7 +125,7 @@ class BinaryTree
             cout << ptr->info << " "; 
         }
     }
-};   
+};
 
 int main() 
 {
@@ -139,7 +139,7 @@ int main()
         cout << "3. perform preorder traversal" << endl;
         cout << "4. perform postorder traversal" << endl;
         cout << "5. Exit" << endl;
-        cout << "\nEnter your choice (1-5): ";
+        cout << "\nEnter your choice (1-5): ";   
 
         char ch;
         cin >> ch;
