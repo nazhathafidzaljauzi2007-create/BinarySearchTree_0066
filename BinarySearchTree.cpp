@@ -155,7 +155,7 @@ int main()
             cin >> word;
             obj.insert(word);
             break;
-        }
+        } 
         
         case '2':
             {
