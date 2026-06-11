@@ -57,7 +57,7 @@ class BinaryTree
         {
             parent->rightchild = newNode; 
         }
-    }
+    }  
 
     //this function searches the current node of the specified node
     //as well as the current node of its parent
